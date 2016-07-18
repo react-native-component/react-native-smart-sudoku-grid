@@ -1,6 +1,6 @@
 # react-native-smart-sudoku-grid
 
-A sudoku grid layout for react-native apps. Written in JS for cross-platform support.
+A smart sudoku grid layout for react-native apps. Written in JS for cross-platform support.
 It works on iOS and Android.
 
 This component is compatible with React Native 0.25 and newer.
