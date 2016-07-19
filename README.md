@@ -114,7 +114,7 @@ rowWidth        | number | Yes      | deviceWidth | determines the width of a ro
 columnCount     | number | No       |             | determines how many columns a row contains.
 dataSource      | array  | No       |             | determines the datasource of grid
 renderCell      | func   | No       |             | A function that returns the grid cell component.
-containerStyle  | style  | Yes      |             | see [react-native documents][2]
+style           | style  | Yes      |             | see [react-native documents][2]
 
 
 [1]: http://cyqresig.github.io/img/react-native-smart-sudoku-grid-preview-v1.0.0.gif
