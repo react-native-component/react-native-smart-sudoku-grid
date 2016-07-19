@@ -32,7 +32,7 @@ export default class Grid extends Component {
       columnCount: PropTypes.number.isRequired,
       dataSource: PropTypes.array.isRequired,
       renderCell: PropTypes.func.isRequired,
-      containerStyle: View.propTypes.style,
+      style: View.propTypes.style,
   }
 
   // 构造
@@ -46,7 +46,7 @@ export default class Grid extends Component {
 
   render() {
     return (
-      <View style={[this.props.containerStyle, styles.container, {width: this.props.rowWidth,}]}>
+      <View style={[this.props.style, styles.container, {width: this.props.rowWidth,}]}>
         {this._renderCells()}
       </View>
     )
