@@ -8,6 +8,7 @@ This component is compatible with React Native 0.25 and newer.
 ## Preview
 
 ![react-native-smart-sudoku-grid-preview][1]
+![react-native-smart-sudoku-grid-preview-android][3]
 
 ## Installation
 
@@ -119,3 +120,4 @@ style           | style  | Yes      |             | see [react-native documents]
 
 [1]: http://cyqresig.github.io/img/react-native-smart-sudoku-grid-preview-v1.0.0.gif
 [2]: https://facebook.github.io/react-native/docs/style.html
+[3]: http://cyqresig.github.io/img/react-native-smart-sudoku-grid-preview-android-v1.0.3.gif
