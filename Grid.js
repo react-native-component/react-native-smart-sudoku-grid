@@ -55,7 +55,7 @@ export default class Grid extends Component {
   _renderCells() {
       return this.props.dataSource.map((data, index, dataList) => {
           return (
-            <View style={{width: this.columnWidth, }}>
+            <View style={{width: this.columnWidth, }} key={data.id || index}>
               {this.props.renderCell(data, index, dataList)}
             </View>
           )
