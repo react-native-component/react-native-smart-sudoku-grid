@@ -24,8 +24,8 @@ npm install @react-native-component/react-native-smart-sudoku-grid --save
 
 ## Usage
 
-Install the button from npm with `npm install @react-native-component/react-native-smart-sudoku-grid --save`.
-Then, require it from your app's JavaScript files with `import Button from '@react-native-component/react-native-smart-sudoku-grid'`.
+Install the SudokuGrid from npm with `npm install @react-native-component/react-native-smart-sudoku-grid --save`.
+Then, require it from your app's JavaScript files with `import SudokuGrid from '@react-native-component/react-native-smart-sudoku-grid'`.
 
 ```js
 const dataList = [
