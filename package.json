@@ -1,6 +1,6 @@
 {
   "name": "react-native-smart-sudoku-grid",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A smart sudoku grid layout for react-native apps",
   "main": "Grid.js",
   "scripts": {
