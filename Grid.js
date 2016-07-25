@@ -37,11 +37,11 @@ export default class SudokuGrid extends Component {
 
   // 构造
     constructor(props) {
-      super(props);
+      super(props)
       // 初始状态
-      this.state = {};
+      this.state = {}
 
-      this.columnWidth = (props.rowWidth || deviceWidth) / props.columnCount
+      this._columnWidth = (props.rowWidth || deviceWidth) / props.columnCount
     }
 
   render() {
@@ -55,7 +55,7 @@ export default class SudokuGrid extends Component {
   _renderCells() {
       return this.props.dataSource.map((data, index, dataList) => {
           return (
-            <View style={{width: this.columnWidth, }} key={data.id || index}>
+            <View style={{width: this._columnWidth, }} key={`cell-${(data.key != null) ? data.key : index}`}>
               {this.props.renderCell(data, index, dataList)}
             </View>
           )
