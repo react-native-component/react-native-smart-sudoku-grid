@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
 
 export default class SudokuGrid extends Component {
 
-  static PropTypes = {
+  static propTypes = {
       rowWidth: PropTypes.number,
       columnCount: PropTypes.number.isRequired,
       dataSource: PropTypes.array.isRequired,
