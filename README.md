@@ -16,6 +16,10 @@ This component is compatible with React Native 0.25 and newer.
 npm install react-native-smart-sudoku-grid --save
 ```
 
+## Full Demo
+
+see [ReactNativeComponentDemos][0]
+
 ## Usage
 
 Install the SudokuGrid from npm with `npm install react-native-smart-sudoku-grid --save`.
@@ -153,7 +157,7 @@ dataSource      | array  | No       |             | determines the datasource of
 renderCell      | func   | No       |             | A function that returns the grid cell component.
 style           | style  | Yes      |             | see [react-native documents][2]
 
-
+[0]: https://github.com/cyqresig/ReactNativeComponentDemos
 [1]: http://cyqresig.github.io/img/react-native-smart-sudoku-grid-preview-ios-v1.0.8.gif
 [2]: https://facebook.github.io/react-native/docs/style.html
 [3]: http://cyqresig.github.io/img/react-native-smart-sudoku-grid-preview-android-v1.0.8.gif
