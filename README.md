@@ -1,5 +1,10 @@
 # react-native-smart-sudoku-grid
 
+[![npm](https://img.shields.io/npm/v/react-native-smart-sudoku-grid.svg)](https://www.npmjs.com/package/react-native-smart-sudoku-grid)
+[![npm](https://img.shields.io/npm/dm/react-native-smart-sudoku-grid.svg)](https://www.npmjs.com/package/react-native-smart-sudoku-grid)
+[![npm](https://img.shields.io/npm/dt/react-native-smart-sudoku-grid.svg)](https://www.npmjs.com/package/react-native-smart-sudoku-grid)
+[![npm](https://img.shields.io/npm/l/react-native-smart-sudoku-grid.svg)](https://github.com/react-native-component/react-native-smart-sudoku-grid/blob/master/LICENSE)
+
 A smart sudoku grid layout for react-native apps. Written in JS for cross-platform support.
 It works on iOS and Android.
 
